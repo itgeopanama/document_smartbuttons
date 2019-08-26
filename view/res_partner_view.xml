@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="view_res_partner_form_inherit" model="ir.ui.view">
+            <field name="name">res.partner.form.inherit</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <data>
+                   <xpath expr="//button[@name='toggle_active']" position="after">
+                       <button type="object"
+                           name="action_view_attachment"
+                           class="oe_stat_button"
+                           icon="fa-paperclip">
+                           <field name="attachment_count" widget="statinfo" string="Attachment"/>
+                       </button>
+                    </xpath>
+                </data>
+           </field>
+       </record>
+    </data>
+</odoo>

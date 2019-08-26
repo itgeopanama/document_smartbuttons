@@ -1,0 +1,48 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* document_smartbuttons
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-31 14:56+0000\n"
+"PO-Revision-Date: 2017-10-31 14:56+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: document_smartbuttons
+#: model:ir.model.fields,field_description:document_smartbuttons.field_delivery_carrier_attachment_count
+#: model:ir.model.fields,field_description:document_smartbuttons.field_product_product_attachment_count
+#: model:ir.model.fields,field_description:document_smartbuttons.field_product_template_attachment_count
+#: model:ir.model.fields,field_description:document_smartbuttons.field_res_partner_attachment_count
+#: model:ir.model.fields,field_description:document_smartbuttons.field_res_users_attachment_count
+msgid "# of Attachment"
+msgstr "# aantal bijlages"
+
+#. module: document_smartbuttons
+#: model:ir.ui.view,arch_db:document_smartbuttons.product_form_view_attachment_button_product
+#: model:ir.ui.view,arch_db:document_smartbuttons.product_form_view_attachment_button_template
+#: model:ir.ui.view,arch_db:document_smartbuttons.view_res_partner_form_inherit
+msgid "Attachment"
+msgstr "Bijlage"
+
+#. module: document_smartbuttons
+#: model:ir.model,name:document_smartbuttons.model_product_product
+msgid "Product product"
+msgstr "Product variant"
+
+#. module: document_smartbuttons
+#: model:ir.model,name:document_smartbuttons.model_product_template
+msgid "Product template"
+msgstr "Product sjabloon"
+
+#. module: document_smartbuttons
+#: model:ir.model,name:document_smartbuttons.model_res_partner
+msgid "res partner"
+msgstr "res partner"
+
